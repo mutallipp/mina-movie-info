@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/movie/search/search",
+    "pages/movie/movie-more/movie-more",
+    "pages/movie/selected/selected",
+    "pages/movie/movie-detail/movie-detail",
+    "pages/movie/movie-detail/rating/rating",
+    "pages/movie/movie-detail/celebrity/celebrity",
+    "pages/movie/movie-detail/movie-poster/movie-poster",
+    "pages/utisl/util.js"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "300udak电影院",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}

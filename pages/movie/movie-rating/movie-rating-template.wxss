@@ -1,0 +1,70 @@
+.rating {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.rating-star {
+  content: "";
+  display: inline-block;
+  width: 55px;
+  height: 11px;
+  position: absolute;
+  background-repeat: no-repeat;
+  /* background-image: url(http://thyrsi.com/t6/650/1546689172x2728278632.png); */
+  background-image: url(http://p0.meituan.net/movie/cba20984e8e4423598913077e515b6121686728.jpg);
+}
+
+.allstar10 {
+  background-position: 0px 0px;
+}
+
+.allstar9 {
+  background-position: 0px -11px;
+}
+
+.allstar8 {
+  background-position: 0px -22rpx;
+}
+
+.allstar7 {
+  background-position: 0px -33px;
+}
+
+.allstar6 {
+  background-position: 0px -44px;
+}
+
+.allstar5 {
+  background-position: 0px -55px;
+}
+
+.allstar4 {
+  background-position: 0px -66px;
+}
+
+.allstar3 {
+  background-position: 0px -77px;
+}
+
+.allstar2 {
+  background-position: 0px -88px;
+}
+
+.allstar1 {
+  background-position: 0px -99px;
+}
+
+.allstar0 {
+  background-position: 0px -110px;
+}
+
+.rating-average {
+  margin-left: 120rpx;
+  font-size: 30rpx;
+  line-height: 22rpx;
+  color: hsl(59, 94%, 51%);
+  height: 22rpx;
+}
